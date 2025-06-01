@@ -1,1 +1,0 @@
-### Multi Application Platform
