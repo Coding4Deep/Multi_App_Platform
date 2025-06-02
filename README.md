@@ -12,7 +12,7 @@
 [![Memcached](https://img.shields.io/badge/Cache-Memcached-000000?logo=memcached)](https://memcached.org)
 [![Prometheus](https://img.shields.io/badge/Monitoring-Prometheus-E6522C?logo=prometheus)](https://prometheus.io)
 [![Grafana](https://img.shields.io/badge/Visualization-Grafana-F46800?logo=grafana)](https://grafana.com)
-[![License](https://img.shields.io/github/license/your-org/devops-dashboard)](./LICENSE)
+<!--[![License](https://img.shields.io/github/license/your-org/devops-dashboard)](https://github.com/Coding4Deep/Multi_App_Platform/) -->
 
 </div>
 
