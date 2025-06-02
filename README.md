@@ -1,4 +1,6 @@
-# 🚀 DevOps Application Dashboard – Centralized Access & Monitoring
+<div align="center">
+
+#  **DevOps Multi Application Dashboard**
 
 [![CI/CD](https://img.shields.io/badge/Jenkins-CI%2FCD-red?logo=jenkins)](https://www.jenkins.io)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-blue?logo=kubernetes)](https://kubernetes.io)
@@ -11,6 +13,8 @@
 [![Prometheus](https://img.shields.io/badge/Monitoring-Prometheus-E6522C?logo=prometheus)](https://prometheus.io)
 [![Grafana](https://img.shields.io/badge/Visualization-Grafana-F46800?logo=grafana)](https://grafana.com)
 [![License](https://img.shields.io/github/license/your-org/devops-dashboard)](./LICENSE)
+
+</div>
 
 ---
 
@@ -36,14 +40,15 @@ The **DevOps Application Dashboard** is a unified interface for accessing and mo
 
 ## 🏗️ Project Architecture
 
-
+```mermaid
 graph TD
   A[Developer Pushes Code to GitHub/GitLab] --> B[Jenkins CI/CD Pipeline]
   B --> C[Test, Build, Package]
   C --> D[Push Artifact to S3/Nexus]
   C --> E[Dockerize & Push Image to Registry]
-  E --> F[Deploy to Kubernetes (EKS)]
-  F --> G[Applications + RabbitMQ + DBs + Cache]
-  G --> H[Ingress + Autoscaling + Secrets]
-  H --> I[Dashboard Exposes All Apps]
-  I --> J[User Access & Health Monitoring]
+  E --> F["Deploy to Kubernetes (EKS)"]
+  F --> G["Applications + RabbitMQ + DBs + Cache"]
+  G --> H["Ingress + Autoscaling + Secrets"]
+  H --> I["Dashboard Exposes All Apps"]
+  I --> J["User Access & Health Monitoring"]
+
