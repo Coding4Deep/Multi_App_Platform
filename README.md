@@ -42,9 +42,9 @@ The **DevOps Application Dashboard** is a unified interface for accessing and mo
 
 ```mermaid
 graph TD
-  A[Developer Pushes Code to GitHub/GitLab] --> B[Jenkins CI/CD Pipeline]
+  A[Developer Pushes Code to GitHub] --> B[Jenkins CI/CD Pipeline]
   B --> C[Test, Build, Package]
-  C --> D[Push Artifact to S3/Nexus]
+  C --> D[Push Artifact to S3/Nexus/Github]
   C --> E[Dockerize & Push Image to Registry]
   E --> F["Deploy to Kubernetes (EKS)"]
   F --> G["Applications + RabbitMQ + DBs + Cache"]
